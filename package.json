@@ -14,6 +14,7 @@
         "nodemon": "^2.0.15"
     },
     "dependencies": {
+        "@adonisjs/ace": "^11.0.5",
         "@koa/router": "^10.1.1",
         "canvas": "^2.8.0",
         "formidable": "^2.0.1",
@@ -22,11 +23,12 @@
         "koa-body": "^4.2.0",
         "koa-jwt": "^4.0.3",
         "koa-static": "^5.0.0",
+        "lodash": "^4.17.21",
         "log4js": "^6.3.0",
         "md5": "^2.3.0",
         "moment": "^2.29.1",
         "mysql2": "^2.3.3",
-        "node-schedule": "^2.0.0",
+        "node-schedule": "^2.1.0",
         "nodemailer": "^6.7.1",
         "puppeteer": "^11.0.0",
         "redis": "^3.1.2",
