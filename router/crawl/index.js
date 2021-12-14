@@ -63,6 +63,6 @@ const crawNovel = async function crawlNovel(catalogUrl, name) {
 //     }
 // });
 
-crawNovel("https://www.vipxs.la/0_495/", "赘婿");
+// crawNovel("https://www.vipxs.la/0_495/", "赘婿");
 
-// module.exports = router.routes();
+module.exports = router.routes();
