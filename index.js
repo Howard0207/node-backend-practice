@@ -5,7 +5,12 @@ const Router = require("@koa/router");
 const { tokenPaser, handleAuth, bodyParser } = require("./middleware");
 const { TOKENSECRET } = require("./config");
 const routes = require("./router");
+const mysql = require("mysql2");
 // const ace = require("@adonisjs/ace");
+const { MYSQL_CONFIG } = require("./config");
+const log4js = require("log4js");
+const logger = log4js.getLogger();
+logger.level = "INFO";
 
 // 创建http实例
 const app = new Koa();

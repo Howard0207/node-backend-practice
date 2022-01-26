@@ -1,14 +1,14 @@
-const { Command } = require("@adonisjs/ace");
+const { BaseCommand } = require("@adonisjs/ace");
 const _ = require("lodash");
 const moment = require("moment");
-const DATE_FORMAT = require("../constant");
+const DATE_FORMAT = require("../const");
 const path = require("path");
 const fs = require("fs");
 const log4js = require("log4js");
 const logger = log4js.getLogger();
 logger.level = "INFO";
 
-class Base extends Command {
+class Base extends BaseCommand {
     static get signature() {
         return `
             Novel:Base

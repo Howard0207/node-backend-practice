@@ -29,6 +29,11 @@ const WEBSITE = {
     xbqg: {
         url: "http://www.xbiquge.la",
         remark: "新笔趣阁"
+    },
+    byzw: {
+        url: "https://www.81zw.com",
+        remark: "八一中文",
+        search: "/search.php"
     }
 };
 
